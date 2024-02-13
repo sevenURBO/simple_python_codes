@@ -3,7 +3,7 @@ def create_grid(rows, cols):
     grid = [[0 for _ in range(cols)] for _ in range(rows)]
     return grid
 
-#printing grid in different rows
+#printing lists in different rows
 def print_grid(grid):
     for row in grid:
         print(row)
