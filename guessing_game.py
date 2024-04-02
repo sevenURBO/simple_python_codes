@@ -7,7 +7,7 @@ while guess != secret_word:
     if guess_count < guess_limit:
         guess = input("Write your guess: ")
         guess_count += 1
-        if guess != secret_word and guess_count != 3:
+        if guess != secret_word and guess_count != guess_limit:
             print(f"Wrong answer, try again! Remaining guesses: {guess_limit - guess_count}")
         elif guess == secret_word:
             print("You win!")
